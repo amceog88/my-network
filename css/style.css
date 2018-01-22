@@ -42,7 +42,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 
 }
 
@@ -358,8 +358,12 @@ h3.resume-subtitle {
 }
 
 /* contact form */
+.contact {
+  background-color: #f7f7f7;
+}
 
 .contact-form {
+
   width: 65%;
   margin: 0 auto;
   text-align: center;
@@ -367,17 +371,20 @@ h3.resume-subtitle {
 
 .contact-form .form-input:first-child,
 .contact-form .form-input:nth-child(2) {
+
   float: left;
   width: 50%;
   padding: 0 15px;
 }
 
 .contact-form .form-input:nth-child(3) {
+
   width: 100%;
   padding: 0 15px;
 }
 
 .contact-form input.form-style {
+  background-color: #f7f7f7;
   width: 100%;
   border: none;
   border-bottom: 1px solid #333;
@@ -388,6 +395,7 @@ h3.resume-subtitle {
 }
 
 .contact-form textarea {
+  background-color: #f7f7f7;
   width: 100%;
   border: none;
   border-bottom: 1px solid #333;
